@@ -13,7 +13,7 @@ body {
 
 #inferior {
   background-color: rgb(20, 20, 20);
-  position: fixed; 
+  position: fixed;
   left: 0px; 
   right: 0px; 
   bottom: 0px; 
@@ -47,4 +47,86 @@ body {
 .info{
     width: 18px;
     height: 18px;
+}
+
+#gallery{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 50px;
+    grid-template-areas: 
+    "container1 container2 container3"
+    "container4 container5 container6"
+    "container7 container8 container9"
+    "container10 container11 container12"
+    "space space space";
+}
+
+.space{
+    grid-area: space;
+}
+
+.container1{
+    grid-area: container1;
+}
+
+.container2{
+    grid-area: container2;
+}
+
+.container3{
+    grid-area: container3;
+}
+
+.container4{
+    grid-area: container4;
+}
+
+.container5{
+    grid-area: container5;
+}
+
+.container6{
+    grid-area: container6;
+}
+
+.container7{
+    grid-area: container7;
+}
+
+.container8{
+    grid-area: container8;
+}
+
+.container9{
+    grid-area: container9;
+}
+
+.container10{
+    grid-area: container10;
+}
+
+.container11{
+    grid-area: container11;
+}
+
+.container12{
+    grid-area: container12;
+}
+
+#container{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.text{
+    position: absolute;
+    top: 90%;
+    left: 10px;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
 }
