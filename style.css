@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  color: white;
+  height: 100%;
+}
+
+#inferior {
+  background-color: rgb(20, 20, 20);
+  position: fixed; 
+  left: 0px; 
+  right: 0px; 
+  bottom: 0px; 
+  height: 50px; 
+  z-index: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(152, 152, 152);
+}
+
+.title{
+    font-size: 14px;
+    font-weight: 900;
+    width: 92%;
+    padding-left: 20px;
+}
+
+.subtitle{
+    font-size: 14px;
+    margin-left:25px;
+}
+
+.infoimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.info{
+    width: 18px;
+    height: 18px;
+}
